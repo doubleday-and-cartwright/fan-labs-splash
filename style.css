@@ -89,9 +89,9 @@ h3 {
 
 @keyframes onload {
   from {
-    backdrop-filter: blur(10px);
+    backdrop-filter: saturate(0%);
   }
   to {
-    backdrop-filter: blur(0);
+    backdrop-filter: saturate(100%);
   }
 }
