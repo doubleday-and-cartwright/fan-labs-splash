@@ -6,6 +6,7 @@
   padding: 0;
 }
 body {
+  animation: onload 2s ease-in-out;
   color: white;
   font-family: sans-serif;
   background-image: url('images/background.jpg');
@@ -83,5 +84,14 @@ h3 {
   }
   h2 {
     font-size: 1.5rem;
+  }
+}
+
+@keyframes onload {
+  from {
+    backdrop-filter: blur(10px);
+  }
+  to {
+    backdrop-filter: blur(0);
   }
 }
